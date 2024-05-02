@@ -1,0 +1,28 @@
+{
+    "settings": "Ayarlar",
+    "posts": "Yazılar",
+    "users":"Kullanıcılar",
+    "title": "Başlık",
+    "language": "Dil",
+    "theme": "Tema",
+    "selectlng":"Dili Seçiniz",
+    "settingDesc": "Ayarlarınızı yönetin",
+    "postDesc": "Gönderi ayarlarınızı yönetin",
+    "usersDesc":"Kullanıcı ayarlarını yönetin",
+    "titleDesc":"Sayfanızın başlığını yönetebilirsiniz.",
+    "meta":"Meta Açıklama",
+    "metaKey":"Meta Anahtar Kelime",
+    "metaKeyDesc":"Doğrulanmış metaKeyword adreslerini metaKeyword ayarlarınızdan yönetebilirsiniz.",
+    "metaDesc":"Web sayfasının kısa bir özetini giriniz.",
+    "project": "Projeler",
+    "bookmarks":"Kaynaklar",
+    "videos": "Eğitimler",
+    "management": "Yönetim",
+    "urlDesc": "Web sitenize sosyal medya profillerinizin linklerini ekleyin.",
+    "addUrl":"URL Ekle",
+    "lngDesc":"Bu, kontrol panelinde kullanılacak dildir.",
+    "updatePref":"Tercihleri Güncelle",
+    "delete": "Sil",
+    "update": "Güncelle"
+
+}

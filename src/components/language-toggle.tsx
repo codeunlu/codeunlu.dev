@@ -26,8 +26,8 @@ export function LanguageToggle() {
           <button className="flex gap-1 items-center hover:bg-accent py-2 px-1" onClick={() => onClick("en")}>
             <img
               className="w-8 h-6"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"
-              alt=""
+              src={"/images/FlagEN.png"}
+              alt="EN"
             />
             <span>English</span>
           </button>
@@ -35,8 +35,8 @@ export function LanguageToggle() {
           <button className="flex gap-1 items-center hover:bg-accent py-2 px-1" onClick={() => onClick("tr")}>
             <img
               className="w-8 h-6"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/240px-Flag_of_Turkey.svg.png"
-              alt=""
+              src={"/images/FlagTR.png"}
+              alt="TR"
             />
             <span>Türkçe</span>
           </button>

@@ -7,7 +7,7 @@ interface AvatarProps {
     imageSrc: string;
 }
 
-const Avatar: React.FC<AvatarProps> = ({ name, role, imageSrc }) => {
+const Logo: React.FC<AvatarProps> = ({ name, role, imageSrc }) => {
     return (
         <div>
             <Link className="grow flex gap-2 no-underline items-center" to="/">
@@ -21,4 +21,4 @@ const Avatar: React.FC<AvatarProps> = ({ name, role, imageSrc }) => {
     );
 };
 
-export default Avatar;
+export default Logo;

@@ -2,7 +2,7 @@ import { FaJava, FaReact } from "react-icons/fa6";
 import { TbBrandKotlin } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 
-const StackBox2 = () => {
+const StackBox = () => {
   return (
     <div>
       <div className="relative z-0 h-[320px]">
@@ -117,4 +117,4 @@ const StackBox2 = () => {
   );
 };
 
-export default StackBox2;
+export default StackBox;

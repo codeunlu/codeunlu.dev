@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="mt-20 flex">
+    <div className="mt-10 flex">
       <div className="w-full max-w-5xl">
         <div className="flex flex-col gap-5">
           <h1 className="text-4xl font-bold tracking-wide text-white">
@@ -34,7 +34,7 @@ const Contact = () => {
           <div className="mb-5">
             <label className="mb-3 block text-base">Message</label>
             <textarea
-              rows={4}
+              rows={10}
               name="message"
               id="message"
               placeholder="Type your message"

@@ -17,8 +17,8 @@ const Home = () => {
                 <div className="flex gap-10">
                     <div className="flex flex-col items-start gap-8 xl:w-2/3 w-full">
                         <p className="text-lg leading-loose text-start text-muted-foreground ">
-                            {t("home-paragraph")}
-                            <b className="border-b-4 border-indigo-500 text-white">{t("home-paragraph-city")}</b>
+                            {t("home-paragraph")} <br/>
+                            <b className="border-b-4 border-indigo-500 text-white">{t("home-paragraph-city")} </b>
                             {t("home-paragraph-2")}
                             <b className="border-b-4 border-indigo-500 text-white">{t("home-paragraph-skill")}</b>
                             {t("home-paragraph-3")}

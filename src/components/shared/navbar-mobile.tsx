@@ -25,7 +25,7 @@ export default function NavbarMobile({toggleMenu}: Props) {
                 className="block py-2 px-4 mx-4 no-underline rounded-lg hover:bg-indigo-500 hover:text-white"
                 to="/projects"
             >
-                {t("project")}
+                {t("projects")}
             </Link>
             <Link
                 className="block py-2 px-4 mx-4 no-underline rounded-lg hover:bg-indigo-500 hover:text-white"
@@ -37,7 +37,7 @@ export default function NavbarMobile({toggleMenu}: Props) {
                 className="block py-2 px-4 mx-4 no-underline rounded-lg hover:bg-indigo-500 hover:text-white"
                 to="/bookmarks"
             >
-                {t("bookmarks")}
+                {t("sources")}
             </Link>
             <div className="py-2 px-4 mx-6">
                 <LanguageToggle/>

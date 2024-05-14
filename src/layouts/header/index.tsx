@@ -29,7 +29,7 @@ const Header: React.FC = () => {
   }, [isMenuOpen]);
 
   return (
-    <header className="relative py-5 max-w-screen-xl mx-auto">
+    <header className="relative py-5 max-w-screen-lg mx-auto">
       <Navbar isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
       {isMenuOpen && <NavbarMobile toggleMenu={toggleMenu} />}
     </header>
